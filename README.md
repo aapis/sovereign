@@ -60,6 +60,6 @@ The following options can be set in your user preferences:
   "color_scheme": "Packages/Theme - Flatland/Flatland Monokai.tmTheme",
 
   // a light theme for the sidebar
-  "light_sidebar": true
+  "flatland_light_sidebar": true
 }
 ```
