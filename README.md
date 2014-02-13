@@ -1,4 +1,4 @@
-# Flatland
+# aapis/Flatland
 
 ## About
 
@@ -57,6 +57,9 @@ The following options can be set in your user preferences:
   "flatland_square_tabs": true,
 
   // Monokai color scheme (SublimeText's default) with Flatland background color
-  "color_scheme": "Packages/Theme - Flatland/Flatland Monokai.tmTheme"
+  "color_scheme": "Packages/Theme - Flatland/Flatland Monokai.tmTheme",
+
+  // a light theme for the sidebar
+  "light_sidebar": true
 }
 ```
