@@ -26,7 +26,7 @@ Alternatively, if you are a git user, you can install the theme and keep up to d
 While inside the `Packages` directory, clone the theme repository using the command below:
 
 ```bash
-git clone git://github.com/thinkpixellab/flatland.git "Theme - Flatland"
+git clone git://github.com/aapis/flatland.git "Theme - Flatland"
 ```
 
 ### Manual Installation
