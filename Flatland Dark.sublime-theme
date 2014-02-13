@@ -412,12 +412,23 @@
     // Sidebar container
     {
         "class": "sidebar_container",
+        "settings": ["light_sidebar"],
         "layer0.tint": [206, 203 ,200],
         "layer0.opacity": 1.0,
         "layer0.draw_center": false,
         "layer0.inner_margin": [0, 0, 0, 0],
         "content_margin": [0, 0, 0, 0]
     },
+
+    {
+        "class": "sidebar_container",
+        "layer0.tint": [206, 203 ,200],
+        "layer0.opacity": 1.0,
+        "layer0.draw_center": false,
+        "layer0.inner_margin": [0, 0, 0, 0],
+        "content_margin": [0, 0, 0, 0]
+    },
+
     // Sidebar tree
     {
         "class": "sidebar_tree",
