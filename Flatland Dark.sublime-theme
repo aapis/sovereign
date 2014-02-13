@@ -412,6 +412,14 @@
     // Sidebar container
     {
         "class": "sidebar_container",
+        "layer0.tint": [206, 203 ,200],
+        "layer0.opacity": 1.0,
+        "layer0.draw_center": false,
+        "layer0.inner_margin": [0, 0, 0, 0],
+        "content_margin": [0, 0, 0, 0]
+    },
+    {
+        "class": "sidebar_container",
         "settings": ["light_sidebar"],
         "layer0.tint": [206, 203 ,200],
         "layer0.opacity": 1.0,
@@ -419,19 +427,20 @@
         "layer0.inner_margin": [0, 0, 0, 0],
         "content_margin": [0, 0, 0, 0]
     },
-
-    {
-        "class": "sidebar_container",
-        "layer0.tint": [206, 203 ,200],
-        "layer0.opacity": 1.0,
-        "layer0.draw_center": false,
-        "layer0.inner_margin": [0, 0, 0, 0],
-        "content_margin": [0, 0, 0, 0]
-    },
-
     // Sidebar tree
     {
         "class": "sidebar_tree",
+        "row_padding": [8, 4],
+        "indent": 14,
+        "indent_offset": 20,
+        "indent_top_level": false,
+        "layer0.tint": [49, 52, 55],
+        "layer0.opacity": 1.0,
+        "dark_content": false
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["light_sidebar"],
         "row_padding": [8, 4],
         "indent": 14,
         "indent_offset": 20,
@@ -440,10 +449,11 @@
         "layer0.opacity": 1.0,
         "dark_content": false
     },
+
     // Sidebar rows
     {
         "class": "tree_row",
-        //"layer0.texture": "Theme - Flatland/Flatland Dark/sidebar-row-selected.png",
+        "settings": ["light_sidebar"],
         "layer0.tint": [127, 127, 127],
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1,1]
@@ -451,6 +461,13 @@
     // Sidebar row selected
     {
         "class": "tree_row",
+        "layer0.texture": "Theme - Flatland/Flatland Dark/sidebar-row-selected.png",
+        "layer0.opacity": 0.0,
+        "layer0.inner_margin": [1,1]
+    },
+    {
+        "class": "tree_row",
+        "settings": ["light_sidebar"],
         "attributes": ["selected"],
         "layer0.opacity": 1.0,
         "layer0.tint": [175, 173, 171]
