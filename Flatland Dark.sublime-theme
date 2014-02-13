@@ -453,7 +453,14 @@
     // Sidebar rows
     {
         "class": "tree_row",
+        "layer0.texture": "Theme - Flatland/Flatland Dark/sidebar-row-selected.png",
+        "layer0.opacity": 0.0,
+        "layer0.inner_margin": [1,1]
+    },
+    {
+        "class": "tree_row",
         "settings": ["light_sidebar"],
+        "layer0.texture": "",
         "layer0.tint": [127, 127, 127],
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1,1]
@@ -461,9 +468,8 @@
     // Sidebar row selected
     {
         "class": "tree_row",
-        "layer0.texture": "Theme - Flatland/Flatland Dark/sidebar-row-selected.png",
-        "layer0.opacity": 0.0,
-        "layer0.inner_margin": [1,1]
+        "attributes": ["selected"],
+        "layer0.opacity": 1.0
     },
     {
         "class": "tree_row",
@@ -480,15 +486,37 @@
         "shadow_color": [148, 149, 151],
         "shadow_offset": [0, 0]
     },
+    {
+        "class": "sidebar_heading",
+        "settings": ["light_sidebar"],
+        "color": [49, 52, 55],
+        "font.bold": true,
+        "shadow_color": [175, 173, 171],
+        "shadow_offset": [1, 1]
+    },
     // Sidebar entry
     {
         "class": "sidebar_label",
+        "color": [212, 212, 213],
+        "shadow_offset": [0, 0]
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["light_sidebar"],
         "color": [49, 52, 55],
         "shadow_offset": [0, 0]
     },
     // Sidebar folder entry
     {
         "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+        "color": [212, 212, 213],
+        "shadow_color": [0, 0, 0],
+        "shadow_offset": [0, 0]
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["light_sidebar"],
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
         "color": [49, 52, 55],
         "shadow_color": [0, 0, 0],
@@ -498,6 +526,12 @@
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
         "color": [255, 255, 255]
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["light_sidebar"],
+        "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
+        "color": [127, 127, 127]
     },
     {
         "class": "sidebar_label",
