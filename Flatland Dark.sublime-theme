@@ -145,8 +145,9 @@
         "class": "tabset_control",
         "settings": ["flatland_square_tabs"],
         "layer0.texture": "Theme - Flatland/Flatland Dark/square/tabset-background.png",
-        "content_margin": [0, 0, 0, 0]
-        // "tab_overlap": 5
+        "content_margin": [0, 0, 0, 0],
+        "tab_height": 45
+        //"tab_overlap": 5
     },
     {
         "class": "tab_control",
