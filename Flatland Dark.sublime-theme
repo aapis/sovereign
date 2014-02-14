@@ -161,7 +161,7 @@
     //COMPACT TABS
     {
         "class": "tabset_control",
-        "settings": ["flatland_compact_tabs"],
+        "settings": ["flatland_flat_tabs"],
         "layer0.texture": null,
         "layer0.tint": [206, 203 ,200],
         "content_margin": [0, 0, 0, 1],
@@ -170,7 +170,7 @@
     },
     {
         "class": "tab_control",
-        "settings": ["flatland_compact_tabs"],
+        "settings": ["flatland_flat_tabs"],
         "content_margin": [10, 1, 10, 0],
         //default?
         "layer0.texture": null,
@@ -187,14 +187,14 @@
     },
     {
         "class": "tab_label",
-        "settings": ["flatland_compact_tabs"],
+        "settings": ["flatland_flat_tabs"],
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "fg": [49, 52, 55],  // active tab text colour,
         "shadow_offset": [0,0]
     },
     {
         "class": "tab_label",
-        "settings": ["flatland_compact_tabs"],
+        "settings": ["flatland_flat_tabs"],
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
         "fg": [49, 52, 55],  // active tab text colour
         "shadow_offset": [0,0]
