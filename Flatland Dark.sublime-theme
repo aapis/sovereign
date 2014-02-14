@@ -161,7 +161,7 @@
     //FLAT TABS
     {
         "class": "tabset_control",
-        "settings": ["flatland_flat_tabs"],
+        "settings": ["flatland_flat_tabs_dark"],
         "layer0.texture": null,
         "layer0.tint": [49, 52, 55],
         "content_margin": [0, 0, 0, 0],
@@ -170,7 +170,7 @@
     },
     {
         "class": "tab_control",
-        "settings": ["flatland_flat_tabs"],
+        "settings": ["flatland_flat_tabs_dark"],
         "content_margin": [10, 1, 10, 0],
         //default?
         "layer0.texture": null,
@@ -184,23 +184,75 @@
     },
     {
         "class": "tab_control",
-        "settings": ["flatland_flat_tabs"],
+        "settings": ["flatland_flat_tabs_dark"],
         "attributes": ["dirty"],
         "layer1.tint": [227, 114, 52],
         "layer2.tint": [227, 114, 52]
     },
     {
         "class": "tab_label",
-        "settings": ["flatland_flat_tabs"],
+        "settings": ["flatland_flat_tabs_dark"],
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "fg": [49, 52, 55],  // active tab text colour,
         "shadow_offset": [0,0]
     },
     {
         "class": "tab_label",
-        "settings": ["flatland_flat_tabs"],
+        "settings": ["flatland_flat_tabs_dark"],
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
         "fg": [49, 52, 55],  // active tab text colour
+        "shadow_offset": [0,0]
+    },
+    //FLAT TABS INVERSE
+    {
+        "class": "tabset_control",
+        "settings": ["flatland_flat_tabs_light"],
+        "layer0.texture": null,
+        "layer0.tint": [206, 203 ,200], //49, 52, 55
+        "content_margin": [0, 0, 0, 0],
+        "tab_height": 30,
+        "tab_overlap": 0
+    },
+    {
+        "class": "tab_control",
+        "settings": ["flatland_flat_tabs_light"],
+        "content_margin": [10, 1, 10, 0],
+        //default?
+        "layer0.texture": null,
+        "layer0.tint": [206, 203 ,200], //49, 52, 55
+        // Inactive tab settings
+        "layer1.texture": null,
+        "layer1.tint": [49, 52, 55], //206, 203 ,200
+        // inactive hover tab setting
+        "layer2.texture": null,
+        "layer2.tint": [49, 52, 55] //206, 203 ,200
+    },
+    {
+        "class": "tab_control",
+        "settings": ["flatland_flat_tabs_light"],
+        "attributes": ["dirty"],
+        "layer1.tint": [227, 114, 52],
+        "layer2.tint": [227, 114, 52]
+    },
+    {
+        "class": "tab_label",
+        "settings": ["flatland_flat_tabs_light"],
+        "parents": [{"class": "tab_control"}],
+        "fg": [49, 52, 55],  // active tab text colour,
+        "shadow_offset": [0,0]
+    },
+    {
+        "class": "tab_label",
+        "settings": ["flatland_flat_tabs_light"],
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "fg": [206, 203 ,200],  // active tab text colour
+        "shadow_offset": [0,0]
+    },
+    {
+        "class": "tab_label",
+        "settings": ["flatland_flat_tabs_light"],
+        "parents": [{"class": "tab_control", "attributes": ["hover"]}],
+        "fg": [206, 203 ,200],  // active tab text colour
         "shadow_offset": [0,0]
     },
 

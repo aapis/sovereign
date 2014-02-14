@@ -50,6 +50,9 @@ The following options can be set in your user preferences:
   // Options: xsmall, small, medium, large, xlarge
   "flatland_sidebar_tree_xsmall" : true,
 
-  //give the tabs more of a flat appearance
-  "flatland_flat_tabs": true,
+  //flat-styled tabs, active tab is light and inactive tabs are dark
+  "flatland_flat_tabs_dark": true,
+
+  //flat-styled tabs, active tab is dark and inactive tabs are light
+  "flatland_flat_tabs_light": true,
 }
