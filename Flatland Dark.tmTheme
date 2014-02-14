@@ -26,7 +26,7 @@
 				<string>#202325</string>
 
 				<key>selection</key>
-				<string>#3C3F42</string>
+				<string>#515559</string>
 
 				<key>findHighlight</key>
 				<string>#ffe792</string>
@@ -58,7 +58,7 @@
 				<string>#798188</string>
 			</dict>
 		</dict>
-	        <dict>
+		<dict>
 			<key>name</key>
 			<string>Python Docstring</string>
 			<key>scope</key>
@@ -455,6 +455,61 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>GitGutter deleted</string>
+			<key>scope</key>
+			<string>markup.deleted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EB939A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter changed</string>
+			<key>scope</key>
+			<string>markup.changed.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#72AACA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter inserted</string>
+			<key>scope</key>
+			<string>markup.inserted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B7D877</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter ignored</string>
+			<key>scope</key>
+			<string>markup.ignored.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#798188</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter untracked</string>
+			<key>scope</key>
+			<string>markup.untracked.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#798188</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>SublimeLinter Annotations</string>
 			<key>scope</key>
 			<string>sublimelinter.outline.notes</string>
@@ -715,6 +770,138 @@
 			<dict>
 				<key>foreground</key>
 				<string>#72AACA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Level-1</string>
+			<key>scope</key>
+			<string>level-1</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#452323</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Level0</string>
+			<key>scope</key>
+			<string>level0</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#234523</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Level1</string>
+			<key>scope</key>
+			<string>level1</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#232345</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Level2</string>
+			<key>scope</key>
+			<string>level2</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#454523</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Level3</string>
+			<key>scope</key>
+			<string>level3</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#452345</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Level4</string>
+			<key>scope</key>
+			<string>level4</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#234545</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Level5</string>
+			<key>scope</key>
+			<string>level5</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#634141</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Level6</string>
+			<key>scope</key>
+			<string>level6</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#416341</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Level7</string>
+			<key>scope</key>
+			<string>level7</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#414163</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Level8</string>
+			<key>scope</key>
+			<string>level8</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#636341</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Level9</string>
+			<key>scope</key>
+			<string>level9</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#634163</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Level10</string>
+			<key>scope</key>
+			<string>level10</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#416363</string>
 			</dict>
 		</dict>
 	</array>

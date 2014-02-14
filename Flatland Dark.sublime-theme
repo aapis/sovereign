@@ -23,7 +23,7 @@
     // Tab element
     {
         "class": "tab_control",
-        "content_margin": [12, -5, 12, 4],
+        "content_margin": [14, 0, 14, 6],
         "max_margin_trim": 0,
         "hit_test_level": 0.5,
         // Inactive tab settings
@@ -129,7 +129,7 @@
         "class": "tab_control",
         "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
         "attributes": ["dirty"],
-        "content_margin": [12, -5, 8, 4]
+        "content_margin": [14, 0, 15, 6]
     },
     {
         // Tab dirty button (close button hidden)
@@ -450,7 +450,31 @@
         "layer0.opacity": 1.0,
         "dark_content": false
     },
-
+    {
+        "class": "sidebar_tree",
+        "settings": ["flatland_sidebar_tree_xsmall"],
+        "row_padding": [8, 0]
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["flatland_sidebar_tree_small"],
+        "row_padding": [8, 2]
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["flatland_sidebar_tree_medium"],
+        "row_padding": [8, 3]
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["flatland_sidebar_tree_large"],
+        "row_padding": [8, 6]
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["flatland_sidebar_tree_xlarge"],
+        "row_padding": [8, 8]
+    },
     // Sidebar rows
     {
         "class": "tree_row",
@@ -800,7 +824,6 @@
     {
         "class": "icon_button_control",
         "layer0.texture": "Theme - Flatland/Flatland Dark/btn-group-middle.png",
-        "layer0.inner_margin": [6, 6],
         "layer0.opacity": 1.0,
         "content_margin": [4, 4,4,5]
     },

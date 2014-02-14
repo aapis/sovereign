@@ -44,6 +44,9 @@ The following options can be set in your user preferences:
   "color_scheme": "Packages/Theme - Flatland/Flatland Monokai.tmTheme",
 
   // a light theme for the sidebar
-  "flatland_light_sidebar": true
+  "flatland_light_sidebar": true,
+
+  // Ability to change row height of sidebar tree
+  // Options: xsmall, small, medium, large, xlarge
+  "flatland_sidebar_tree_xsmall" : true
 }
-```
