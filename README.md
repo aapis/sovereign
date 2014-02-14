@@ -2,14 +2,14 @@
 
 ## About
 
-Flatland is a simple theme and accompanying color scheme for Sublime Text 2 & 3. It is mostly derived from  [Soda](https://github.com/buymeasoda/soda-theme), the right place to start for any custom theme development for Sublime. Thanks Soda!
+aapis/Flatland is a fork of the lovely Sublime theme Flatland, which is itself based on [Soda](https://github.com/buymeasoda/soda-theme). Currently only tested on 2.
 
 ## Design
 
 ![Screen Shot!](https://raw.github.com/thinkpixellab/flatland/master/screenshots.png)
 
 ### Installation
-Alternatively, if you are a git user, you can install the theme and keep up to date by cloning the repo directly into your `Packages` directory in the Sublime Text application settings area.
+If you are a git user, you can install the theme and keep up to date by cloning the repo directly into your `Packages` directory in the Sublime Text application settings area.
 
 While inside the `Packages` directory, clone the theme repository using the command below:
 
