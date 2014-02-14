@@ -6,7 +6,7 @@ aapis/Flatland is a fork of the lovely Sublime theme Flatland, which is itself b
 
 ## Design
 
-![Screen Shot!](https://raw.github.com/thinkpixellab/flatland/master/screenshots.png)
+![Screen Shot!](https://raw.github.com/aapis/flatland/master/aapis_screenshots.png)
 
 ### Installation
 If you are a git user, you can install the theme and keep up to date by cloning the repo directly into your `Packages` directory in the Sublime Text application settings area.
