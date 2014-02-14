@@ -73,7 +73,7 @@
         "shadow_color": [75, 59, 83],
         "shadow_offset": [0, 0]
 
-},
+    },
     // Tab close button
     {
         "class": "tab_close_button",
@@ -147,7 +147,6 @@
         "layer0.texture": "Theme - Flatland/Flatland Dark/square/tabset-background.png",
         "content_margin": [0, 0, 0, 0],
         "tab_height": 40
-        //"tab_overlap": 5
     },
     {
         "class": "tab_control",
@@ -158,6 +157,47 @@
         "layer1.texture": "Theme - Flatland/Flatland Dark/square/tab-active.png",
         // Hover tab setting
         "layer2.texture": "Theme - Flatland/Flatland Dark/square/tab-hover.png"
+    },
+    //COMPACT TABS
+    {
+        "class": "tabset_control",
+        "settings": ["flatland_compact_tabs"],
+        "layer0.texture": null,
+        "layer0.tint": [206, 203 ,200],
+        "content_margin": [0, 0, 0, 1],
+        "tab_height": 30,
+        "tab_overlap": 0
+    },
+    {
+        "class": "tab_control",
+        "settings": ["flatland_compact_tabs"],
+        "content_margin": [10, 1, 10, 0],
+        //default?
+        "layer0.texture": null,
+        "layer0.tint": [49, 52, 55],
+        // Inactive tab settings
+        "layer1.texture": null,
+        "layer1.tint": [206, 203 ,200],
+        // inactive hover tab setting
+        "layer2.texture": null,
+        "layer2.tint": [206, 203 ,200],
+        // Hover tab setting
+        "layer3.texture": null,
+        "layer3.tint": [49, 52, 55]
+    },
+    {
+        "class": "tab_label",
+        "settings": ["flatland_compact_tabs"],
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "fg": [49, 52, 55],  // active tab text colour,
+        "shadow_offset": [0,0]
+    },
+    {
+        "class": "tab_label",
+        "settings": ["flatland_compact_tabs"],
+        "parents": [{"class": "tab_control", "attributes": ["hover"]}],
+        "fg": [49, 52, 55],  // active tab text colour
+        "shadow_offset": [0,0]
     },
 
 //
@@ -529,6 +569,12 @@
         "class": "sidebar_label",
         "settings": ["flatland_light_sidebar"],
         "color": [49, 52, 55],
+        "shadow_offset": [0, 0]
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["flatland_sidebar_label_colour"],
+        "color": ["flatland_sidebar_label_colour"],
         "shadow_offset": [0, 0]
     },
     // Sidebar folder entry
