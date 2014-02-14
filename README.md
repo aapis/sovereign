@@ -48,5 +48,8 @@ The following options can be set in your user preferences:
 
   // Ability to change row height of sidebar tree
   // Options: xsmall, small, medium, large, xlarge
-  "flatland_sidebar_tree_xsmall" : true
+  "flatland_sidebar_tree_xsmall" : true,
+
+  //give the tabs more of a flat appearance
+  "flatland_flat_tabs": true,
 }

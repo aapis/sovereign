@@ -158,13 +158,13 @@
         // Hover tab setting
         "layer2.texture": "Theme - Flatland/Flatland Dark/square/tab-hover.png"
     },
-    //COMPACT TABS
+    //FLAT TABS
     {
         "class": "tabset_control",
         "settings": ["flatland_flat_tabs"],
         "layer0.texture": null,
-        "layer0.tint": [206, 203 ,200],
-        "content_margin": [0, 0, 0, 1],
+        "layer0.tint": [49, 52, 55],
+        "content_margin": [0, 0, 0, 0],
         "tab_height": 30,
         "tab_overlap": 0
     },
