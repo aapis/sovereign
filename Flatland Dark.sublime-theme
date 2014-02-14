@@ -180,10 +180,14 @@
         "layer1.tint": [206, 203 ,200],
         // inactive hover tab setting
         "layer2.texture": null,
-        "layer2.tint": [206, 203 ,200],
-        // Hover tab setting
-        "layer3.texture": null,
-        "layer3.tint": [49, 52, 55]
+        "layer2.tint": [206, 203 ,200]
+    },
+    {
+        "class": "tab_control",
+        "settings": ["flatland_flat_tabs"],
+        "attributes": ["dirty"],
+        "layer1.tint": [227, 114, 52],
+        "layer2.tint": [227, 114, 52]
     },
     {
         "class": "tab_label",
