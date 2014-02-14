@@ -2,7 +2,7 @@
 
 ## About
 
-aapis/Flatland is a fork of the lovely Sublime theme Flatland, which is itself based on [Soda](https://github.com/buymeasoda/soda-theme). It contains all of the features in [flatland](thinkpixellab/flatland) as well as a few optional tweaks.
+aapis/Flatland is a fork of the lovely Sublime theme Flatland, which is itself based on [Soda](https://github.com/buymeasoda/soda-theme). It contains all of the features in [flatland](/thinkpixellab/flatland) as well as a few optional tweaks.
 
 Currently only tested on ST2.
 
