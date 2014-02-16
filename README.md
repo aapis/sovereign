@@ -57,4 +57,7 @@ The following options can be set in your user preferences:
 
   //flat-styled tabs, active tab is dark and inactive tabs are light
   "flatland_flat_tabs_light": true,
+
+  //icon-less folders
+  "flatland_simple_filders": true,
 }
