@@ -758,6 +758,58 @@
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Flatland/Flatland Dark/group-open-selected.png"
     },
+    //OPTION: SIMPLE FOLDERS
+    {
+        "class": "disclosure_button_control",
+        "settings": ["flatland_simple_folders"],
+        "content_margin": [0, 6, 300, 10],
+        "layer0.texture": null,
+        "layer0.tint": [32,149,240]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["flatland_simple_folders"],
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.texture": null,
+        "layer0.tint": [32,149,240]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["flatland_simple_folders"],
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.texture": null,
+        "layer0.tint": [32,149,240]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["flatland_simple_folders"],
+        "attributes": ["expanded"],
+        "layer0.texture": null,
+        "layer0.tint": [32,149,240],
+        "border.radius": [10,10]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["flatland_simple_folders"],
+        "attributes": ["expanded"],
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.texture": null,
+        "layer0.tint": [32,149,240]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["flatland_simple_folders"],
+        "attributes": ["expanded"],
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.texture": null,
+        "layer0.tint": [32,149,240]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["flatland_simple_folders", "flatland_light_sidebar"],
+        "layer0.texture": null,
+        "layer0.tint": [175, 173, 171]
+    },
 
 //
 // STANDARD TEXT BUTTONS
